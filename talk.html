@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOLYTECH</title>
+  <link rel="stylesheet" href="css/styler.css">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <!--this link is from font awesome in google, a cdn link-->
+  <link rel="icon" type="image/png" href="img/noly.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="world">
+        <nav>
+            <a href="Index.html"><img src="img/NOLYT.png" title="Home"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="service.html">Services</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="talk-head">
+            <h2>Do you need </h2>
+            <h2> a software partner?</h2>
+            <p>Let's talk about your project</p>
+        </div>
+
+        <div class="big">
+            <div class="Counter-container">
+                <div class="Counter-item">
+                    <div id="count1" class="Counter-number">0</div>
+                    <div class="Counter-text">Hours to answer</div>
+                </div>
+                <div class="Counter-item">
+                    <div id="count2" class="Counter-number">0</div>
+                    <div class="Counter-text">Weeks to launch your project</div>
+                </div>
+                <div class="Counter-item">
+                    <div id="count3" class="Counter-number">0</div>
+                    <div class="Counter-text">Software developers on board</div>
+                </div>
+                <div class="Counter-item">
+                    <div id="count4" class="Counter-number">0</div>
+                    <div class="Counter-text">Projects delivered</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="Container_1">
+        <img src="img/robbot.png" alt="Robot " style="border-radius: 10px;">
+        <div class="form-container">
+            <h1>Drop us a line about your challenge. We’re here to help.</h1>
+            <form action="" method="">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstName">First name*</label>
+                        <input type="text" id="firstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last name*</label>
+                        <input type="text" id="lastName">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email*</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="companyName">Company name*</label>
+                        <input type="text" id="companyName">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message*</label>
+                    <textarea id="message" rows="4"></textarea>
+                </div>
+                <div class="form-group form-checkbox">
+                    <input type="checkbox" id="consent">
+                    <label for="consent">I hereby consent to the processing of my personal data provided in this contact
+                        form by NOLYTECH LTD</label>
+                </div>
+                <button type="submit" class="btn">Submit!</button>
+            </form>
+        </div>
+    </div>
+    </div>
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.787140133899!2d39.65898057352547!3d-4.063760644967027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x184013288358f957%3A0x6a40a3bd5fb9b5c0!2sArchbishop%20Makarios%20Rd%2C%20Mombasa!5e0!3m2!1sen!2ske!4v1727522339764!5m2!1sen!2ske"
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <!-- footer  -->
+  <div class="footer">
+    <div class="footer-col-2">
+      <img src="img/NOLYT.png">
+      <p>Expertise in Every Byte</p>
+  </div>
+      <hr>
+      <p class="copyright">&copy; 2024 NOLYTECH LTD All rights reserved</p>
+ 
+    <button id="backToTop" title="Go to top">↑</button>
+  </div>
+  <script src="js/script.js"></script>
+    <script src="js/talk.js"></script>
+
+    <script src="js/scroll.js"></script>
+</body>
+
+</html>
