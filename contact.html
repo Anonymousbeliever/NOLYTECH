@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOLYTECH</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--this link is from font awesome in google, a cdn link-->
+    <link rel="icon" type="image/png" href="img/noly.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="hero-2">
+        <nav>
+            <a href="Index.html"><img src="img/NOLYT.png" title="Home"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    </div>
+
+    <main>
+        <div class="intro-text">
+            <h1>Hello!</h1>
+            <p>We look forward to hearing from you.</p>
+        </div>
+        <div class="form-container">
+            <h2>Let us know some information about yourself.</h2>
+            <form action="" method="">
+                <label for="">First name*</label>
+                <input type="text" name="" placeholder="Enter your first name">
+                <label for="">Last name*</label>
+                <input type="text" name="" placeholder="Enter your last name">
+                <label for="">Email*</label>
+                <input type="email" name="" placeholder="Enter your email">
+                <label for="">What's your question about NOLYTECH?</label>
+                <textarea placeholder="Write your message"></textarea>
+                <button type="submit" class="btn1">Let's Go!</button>
+            </form>
+        </div> 
+    </main>
+
+    <div class="container">
+        <div class="info">
+            <h2>OUR OFFICE</h2>
+            <h1>Bishop Makarios Road, Ganjoni</h1>
+            <p>P.O.BOX 86493-80100</p>
+            <p>Mombasa, Kenya</p>
+            <div class="call">
+                call: +254 795 112229
+            </div>
+            <div class="call">
+                email us: info@nolytech.co.ke
+            </div>
+        </div>
+        <div class="image">
+            <img src="img/office.webp" alt="Office Building">
+        </div>
+    </div>
+
+
+    <div class="view">
+        <h2 class="title">View us</h2>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.787140133899!2d39.65898057352547!3d-4.063760644967027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x184013288358f957%3A0x6a40a3bd5fb9b5c0!2sArchbishop%20Makarios%20Rd%2C%20Mombasa!5e0!3m2!1sen!2ske!4v1727522339764!5m2!1sen!2ske"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- footer  -->
+    <div class="footer">
+        <div class="footer-col-2">
+            <img src="img/NOLYT.png">
+            <p>Expertise in Every Byte</p>
+        </div>
+        <hr>
+        <p class="copyright">&copy; 2024 NOLYTECH LTD All rights reserved</p>
+
+        <button id="backToTop" title="Go to top">↑</button>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/scroll.js"></script>
+
+
+</body>
+</html>
