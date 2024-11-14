@@ -188,7 +188,7 @@ nav .fa{
     margin-bottom: 30px;
 }
 .names {
-    margin-left: 380px;
+    margin-left: 290px;
     background-color: white;
     display: grid;
     grid-template-columns: repeat(3, 100px); /* 3 equal columns */
